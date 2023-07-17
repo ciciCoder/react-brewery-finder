@@ -28,3 +28,4 @@ export const fetchBrewery = async ({ query, page }: FetchBreweryProps) => {
   const { data } = await axios.get<Brewery[]>(url, { params })
   return data
 }
+// search function
